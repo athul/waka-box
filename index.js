@@ -41,6 +41,7 @@ async function updateGist(stats) {
 
     lines.push(line.join(" "));
   }
+ if (lines.length == 0) return;
 
   try {
     // Get original filename to update that same file
