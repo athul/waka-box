@@ -16,7 +16,7 @@ jobs:
           GIST_ID: 6d57c9cc8ed9b8ac04baa73a217004ea
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
       - name: Notify
-        uses: athul/statusoli@master
+        uses: athul/telewire@master
         if: always()	
         with:	
           chat: ${{ secrets.chat }}	
