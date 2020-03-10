@@ -1,0 +1,5 @@
+name: "waka-box"
+description: "Update a pinned gist to contain WakaTime stats"
+runs:
+  using: "node12"
+  main: "dist/index.js"
